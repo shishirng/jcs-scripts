@@ -1,0 +1,1 @@
+ eval "$(./create_request.py "https://compute.ind-west-1.staging.jiocloudservices.com/?Action=CreateVolume&Size=1&Version=2016-03-01")"

@@ -1,0 +1,6 @@
+ eval "$(./create_request.py "https://compute.ind-west-1.staging.jiocloudservices.com/?Action=DescribeSnapshots&Version=2016-03-01")"
+ eval "$(./create_request.py "https://compute.ind-west-1.staging.jiocloudservices.com/?Action=DescribeVolumes&Version=2016-03-01")"
+ eval "$(./create_request.py "https://compute.ind-west-1.staging.jiocloudservices.com/?Action=CreateVolume&Size=1&Version=2016-03-01")"
+ eval "$(./create_request.py "https://compute.ind-west-1.staging.jiocloudservices.com/?Action=CreateSnapshot&VolumeId=9e1833eb-f76d-48f5-ae92-2bf475245e64&Version=2016-03-01")"
+ eval "$(./create_request.py "https://compute.ind-west-1.staging.jiocloudservices.com/?Action=DeleteVolume&VolumeId=9e1833eb-f76d-48f5-ae92-2bf475245e64&Version=2016-03-01")"
+ eval "$(./create_request.py "https://compute.ind-west-1.staging.jiocloudservices.com/?Action=DeleteSnapshots&SnapshotId=a23a68b0-eea1-4541-8f04-a57520d6c6be&Version=2016-03-01")"
